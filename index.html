@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLITECNICO CHANGE</title> 
+    <link rel="stylesheet" href="estilo.css">
+    <script src = "moneda.js"></script>
+
+</head> 
+<body>
+        <br><h1>BiENVENIDO a POLITECNICO CHANGE</h1><br/>
+        <form class = "FORMLARIO">
+        <div class="container">
+        <div class="Moneda">
+            <input class="money" type="number" id="Cantidad" placeholder="0" value="1">
+            <select id = "Moneda">
+            <option value="Euro">Euro</option> 
+            <option value="Dolar">Dolar</option> 
+            <option value="Real">Real</option> 
+            </select>
+            <br></br>
+            <div class="Moneda">
+                <input type="text" id="Total">
+                <select id="OtraMoneda">
+                    <option value="COP">COP</option>
+                </select>
+            </div>
+     </div>
+      <div class="Cambio-container">
+        <button class="btn" id = "Taza" onclick="Convertir()">cambiar</button>
+      </div>
+      </div>
+        </form>
+    <footer>
+        <br></br>
+        <p>&copy; 2024 POLITECNICO CHANGE. Todos los derechos reservados.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
